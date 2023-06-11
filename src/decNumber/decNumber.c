@@ -2166,7 +2166,7 @@ decNumber * decNumberPower(decNumber *res, const decNumber *lhs,
       // if a negative power the constant 1 is needed, and if not subset
       // invert the lhs now rather than inverting the result later
       if (decNumberIsNegative(rhs)) {   // was a **-n [hence digits>0]
-        decNumber *inv=invbuff;         // asssume use fixed buffer
+        decNumber *inv=invbuff;         // assume use fixed buffer
         decNumberCopy(&dnOne, dac);     // dnOne=1;  [needed now or later]
         #if DECSUBSET
         if (set->extended) {            // need to calculate 1/lhs
