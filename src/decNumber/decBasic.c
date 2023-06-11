@@ -3090,7 +3090,7 @@ decFloat * decFloatQuantize(decFloat *result,
       ulsd=BUFOFF+DECPMAX-1;
       }
      else { // padding will fit (but may still be too long)
-      // final-word mask depends on endianess
+      // final-word mask depends on endianness
       #if DECLITEND
       static const uInt dmask[]={0, 0x000000ff, 0x0000ffff, 0x00ffffff};
       #else
