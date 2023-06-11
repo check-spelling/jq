@@ -480,7 +480,7 @@ struct yy_buffer_state
 #define YY_BUFFER_NORMAL 1
 	/* When an EOF's been seen but there's still some text to process
 	 * then we mark the buffer as YY_EOF_PENDING, to indicate that we
-	 * shouldn't try reading from the input source any more.  We might
+	 * shouldn't try reading from the input source anymore.  We might
 	 * still have a bunch of tokens to match, though, because of
 	 * possible backing-up.
 	 *
