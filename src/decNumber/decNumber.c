@@ -5037,7 +5037,7 @@ static decNumber * decMultiplyOp(decNumber *res, const decNumber *lhs,
           // in the FASTDIGS=9 case
           if (lcarry<FASTBASE) carry=(uInt)lcarry;  // [usual]
            else { // two-place carry [fairly rare]
-            uInt carry2=(uInt)(lcarry/FASTBASE);    // top top part
+            uInt carry2=(uInt)(lcarry/FASTBASE);    // top part
             *(lp+2)+=carry2;                        // add to item+2
             *lp-=((uLong)FASTBASE*FASTBASE*carry2); // [slow]
             carry=(uInt)(lcarry-((uLong)FASTBASE*carry2)); // [inline]
