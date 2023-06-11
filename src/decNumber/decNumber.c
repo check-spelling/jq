@@ -5981,7 +5981,7 @@ static decNumber * decQuantizeOp(decNumber *res, const decNumber *lhs,
 /*     COMPMAX    -- returns the larger of the operands, using the    */
 /*                   754 maxnum operation                             */
 /*     COMPMAXMAG -- ditto, comparing absolute values                 */
-/*     COMPMIN    -- the 754 minnum operation                         */
+/*     COMPMIN    -- the 754 minimum operation                        */
 /*     COMPMINMAG -- ditto, comparing absolute values                 */
 /*     COMTOTAL   -- returns the signum (as a number) giving the      */
 /*                   result of a comparison using 754 total ordering  */

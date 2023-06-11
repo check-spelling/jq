@@ -2565,7 +2565,7 @@ decFloat * decFloatMaxMag(decFloat *result,
   } // decFloatMaxMag
 
 /* ------------------------------------------------------------------ */
-/* decFloatMin -- return minnum of two operands                       */
+/* decFloatMin -- return minimum of two operands                      */
 /*                                                                    */
 /*   result gets the chosen decFloat                                  */
 /*   dfl    is the first decFloat (lhs)                               */
@@ -2597,7 +2597,7 @@ decFloat * decFloatMin(decFloat *result,
   } // decFloatMin
 
 /* ------------------------------------------------------------------ */
-/* decFloatMinMag -- return minnummag of two operands                 */
+/* decFloatMinMag -- return minimum mag of two operands               */
 /*                                                                    */
 /*   result gets the chosen decFloat                                  */
 /*   dfl    is the first decFloat (lhs)                               */
@@ -2606,7 +2606,7 @@ decFloat * decFloatMin(decFloat *result,
 /*   returns result                                                   */
 /*                                                                    */
 /* Returns according to the magnitude comparisons if both numeric and */
-/* unequal, otherwise returns minnum                                  */
+/* unequal, otherwise returns minimum                                 */
 /* ------------------------------------------------------------------ */
 decFloat * decFloatMinMag(decFloat *result,
                        const decFloat *dfl, const decFloat *dfr,
