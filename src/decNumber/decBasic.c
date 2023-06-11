@@ -1494,7 +1494,7 @@ decFloat * decFloatAdd(decFloat *result,
         #define BNEXT 36
       #endif
       if (ulsd>=umsd+BNEXT) {           // unaligned
-        // eight will handle most unaligments for Double; 16 for Quad
+        // eight will handle most unalignments for Double; 16 for Quad
         UBFROMUI(umsd+BNEXT,   0x09090909-UBTOUI(umsd+BNEXT));
         UBFROMUI(umsd+BNEXT+4, 0x09090909-UBTOUI(umsd+BNEXT+4));
         #if DOUBLE
