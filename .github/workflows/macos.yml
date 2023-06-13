@@ -1,9 +1,6 @@
 name: MacOS Build
 on:
   push:
-    branches:
-      - master
-  pull_request:
 jobs:
   macos:
     runs-on: ${{ matrix.os }}
